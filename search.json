@@ -11,7 +11,14 @@
     "href": "index.html#download-and-clean-all-required-data",
     "title": "My Final Project Template",
     "section": "Download and clean all required data",
-    "text": "Download and clean all required data\n\nn=20\ndata=data.frame(x=runif(n,-180,180),\n                y=runif(n,-60,60),\n                size = runif(n, 5, 20),\n                category = factor(\n                  sample(letters[1:5], n, replace = TRUE)\n                  ),\n                value = rnorm(n))\n\ndata %&gt;% \n  slice(1:10) %&gt;% #show only 1:n rows\n  kable(digits=2,align=\"c\")%&gt;% #make table and round to two digits\n  kable_styling(bootstrap_options = \n                  c(\"striped\", \"hover\", \"condensed\", \"responsive\")) #apply other formatting\n\n\n\n\nx\ny\nsize\ncategory\nvalue\n\n\n\n\n61.55\n-38.97\n10.09\nc\n-1.49\n\n\n-54.50\n25.92\n6.79\nc\n0.54\n\n\n-107.43\n-59.43\n14.06\nb\n1.04\n\n\n115.87\n-40.83\n18.42\nb\n-0.98\n\n\n64.66\n47.65\n15.04\ne\n-0.68\n\n\n2.46\n38.27\n16.15\na\n-1.37\n\n\n20.80\n12.93\n14.29\nd\n-0.90\n\n\n-68.65\n-53.79\n11.98\nb\n-0.42\n\n\n-61.49\n-20.33\n15.48\na\n0.77\n\n\n-25.47\n5.61\n6.06\nd\n-2.18\n\n\n\n\n\n\nAdd any additional processing steps here."
+    "text": "Download and clean all required data\n\nn=20\ndata=data.frame(x=runif(n,-180,180),\n                y=runif(n,-60,60),\n                size = runif(n, 5, 20),\n                category = factor(\n                  sample(letters[1:5], n, replace = TRUE)\n                  ),\n                value = rnorm(n))\n\ndata %&gt;% \n  slice(1:10) %&gt;% #show only 1:n rows\n  kable(digits=2,align=\"c\")%&gt;% #make table and round to two digits\n  kable_styling(bootstrap_options = \n                  c(\"striped\", \"hover\", \"condensed\", \"responsive\")) #apply other formatting\n\n\n\n\nx\ny\nsize\ncategory\nvalue\n\n\n\n\n126.61\n37.73\n18.73\na\n-0.11\n\n\n71.39\n-56.85\n13.65\nc\n-0.67\n\n\n-107.34\n0.55\n13.41\na\n0.66\n\n\n63.59\n-24.28\n7.33\nb\n-0.22\n\n\n-140.13\n-29.98\n5.84\nc\n-0.50\n\n\n-115.78\n21.71\n7.82\na\n-1.27\n\n\n108.10\n-46.71\n17.72\nc\n0.88\n\n\n103.74\n-31.92\n7.43\ne\n-1.54\n\n\n50.47\n59.80\n9.48\nc\n-1.38\n\n\n-1.72\n-59.76\n12.19\na\n1.65\n\n\n\n\n\n\nAdd any additional processing steps here."
+  },
+  {
+    "objectID": "data/Readme.html",
+    "href": "data/Readme.html",
+    "title": "GEO511_FinalProject",
+    "section": "",
+    "text": "Place any data needed by your analysis in this folder. Please do not store large files here. Then read in any data using the ‘data’ path. For example, read_csv(\"data/data.csv\")."
   },
   {
     "objectID": "about.html",
