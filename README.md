@@ -33,3 +33,7 @@ You can customize the appearance of your website by modifying the `_quarto.yml` 
 ### Getting Started
 
 To get started with this template, simply click the "Use this template" button at the top of the repository page to create a new repository based on this template. Then, clone your new repository to your local machine and start modifying the files to create your own quarto website.
+
+### R environment
+
+This project targets **R 4.6.1** and uses `renv` (`renv.lock`) to pin packages. Install that R version locally, then run `renv::restore()` before rendering. GitHub Actions uses the same R version via `setup-r`.
